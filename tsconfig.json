@@ -1,0 +1,25 @@
+{
+    "compilerOptions": {
+      "target": "es2018",         
+      "incremental": true,                        
+      "experimentalDecorators": true,                   
+      "emitDecoratorMetadata": true,                   
+      "module": "commonjs",                                
+      "resolveJsonModule": true,                       
+      "sourceMap": true,                               
+      "outDir": "./build/compiled",                                   
+      "esModuleInterop": true,                             
+      "forceConsistentCasingInFileNames": true,            
+      "strict": true,                                      
+     "strictPropertyInitialization": false,            
+      "skipLibCheck": true,
+      "declaration": true,    
+          "typeRoots": ["@types", "node_modules/@types"]
+    },
+    "include": ["src"],
+    "exclude": [
+      "node_modules",
+      "**/__tests__/*"
+    ]
+  }
+  

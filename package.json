@@ -7,7 +7,7 @@
   "types": "build/compiled/index.d.ts",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "dev": "ts-node ./src/index.ts",
+    "dev": "ts-node ./src/app.ts",
     "compile": "tsc",
     "lint": "npx eslint . --ext .ts --fix",
     "format": "prettier --write \"src/**/*.ts\"",
@@ -50,6 +50,7 @@
     "typescript": "^4.5.2"
   },
   "dependencies": {
+    "@divinirakiza/swaggify": "^0.0.4",
     "express": "^4.17.3"
   },
   "husky": {

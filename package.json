@@ -1,7 +1,7 @@
 {
   "name": "swaggify-samples",
   "displayName": "swaggify-samples",
-  "version": "0.0.3",
+  "version": "0.0.1",
   "description": "A practical example for swaggify",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",

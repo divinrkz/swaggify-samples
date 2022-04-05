@@ -1,7 +1,7 @@
 {
    "projectName": "swaggify-samples",
    "openApiVersion": "3.0",
-   "outFile": "src/swagger/swagger.json",
+   "outFile": "/home/divinirakiza/_workspaces/opensource/examples/swaggify-samples/src/swagger/swagger.json",
    "apiRoute": "/api-docs",
    "format": "json"
 }

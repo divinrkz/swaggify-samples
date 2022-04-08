@@ -34,11 +34,12 @@
     call-me-maybe "^1.0.1"
     z-schema "^4.2.3"
 
-"@divinirakiza/swaggify@^0.0.6":
-  version "0.0.6"
-  resolved "https://registry.yarnpkg.com/@divinirakiza/swaggify/-/swaggify-0.0.6.tgz#5a206e073517a0cffae53c88d416675c80883223"
-  integrity sha512-xaKqWiEn1XEqsWBx2emECIyP18XxD/ufdNRJwTX2K91bXB7c8/JmAgEChzKgs5s4H2dnxSKOFMcgkR/olhiNDA==
+"@divinirakiza/swaggify@^0.0.7":
+  version "0.0.7"
+  resolved "https://registry.yarnpkg.com/@divinirakiza/swaggify/-/swaggify-0.0.7.tgz#6338b0916c9e8c799234a48999772abe168eb984"
+  integrity sha512-pC906fwprp+Pgi1BWedxwYatJ1Pd1SD7B+qPs9SW3rj7MJmYeXSSE1bdBAM6m+/5Ij4wFAamIJetWXVFhTc/KQ==
   dependencies:
+    reflect-metadata "^0.1.13"
     swagger-jsdoc "^6.1.0"
     swagger-ui-express "^4.2.0"
     yargs "^17.3.1"
@@ -1081,6 +1082,11 @@ raw-body@2.4.3:
     iconv-lite "0.4.24"
     unpipe "1.0.0"
 
+reflect-metadata@^0.1.13:
+  version "0.1.13"
+  resolved "https://registry.yarnpkg.com/reflect-metadata/-/reflect-metadata-0.1.13.tgz#67ae3ca57c972a2aa1642b10fe363fe32d49dc08"
+  integrity sha512-Ts1Y/anZELhSsjMcU605fU9RE4Oi3p5ORujwbIKXfWa+0Zxs510Qrmrce5/Jowq3cHSZSJqBjypxmHarc+vEWg==
+
 regexpp@^3.2.0:
   version "3.2.0"
   resolved "https://registry.yarnpkg.com/regexpp/-/regexpp-3.2.0.tgz#0425a2768d8f23bad70ca4b90461fa2f1213e1b2"
@@ -1217,9 +1223,9 @@ supports-color@^7.1.0:
     has-flag "^4.0.0"
 
 swagger-jsdoc@^6.1.0:
-  version "6.1.0"
-  resolved "https://registry.yarnpkg.com/swagger-jsdoc/-/swagger-jsdoc-6.1.0.tgz#c2b86321f2c4dde8947b418fe8a4bc94431d5522"
-  integrity sha512-xgep5M8Gq31MxpCbQLvJZpNqHfGPfI+sILCzujZbEXIQp2COtkZgoGASs0gacRs4xHmLDH+GuMGdorPITSG4tA==
+  version "6.2.0"
+  resolved "https://registry.yarnpkg.com/swagger-jsdoc/-/swagger-jsdoc-6.2.0.tgz#ba8e575de826ee6f524526201ac43698525e921d"
+  integrity sha512-+37GcTwC1FaQeF/7EREeVzOv94RArhqMw0le8q4BZ+62/aPdJO3bQ5on/ULlucgXSN7vqkvjm4ObFO0W4Bs5aQ==
   dependencies:
     commander "6.2.0"
     doctrine "3.0.0"
@@ -1236,9 +1242,9 @@ swagger-parser@10.0.2:
     "@apidevtools/swagger-parser" "10.0.2"
 
 swagger-ui-dist@>=4.1.3:
-  version "4.10.0"
-  resolved "https://registry.yarnpkg.com/swagger-ui-dist/-/swagger-ui-dist-4.10.0.tgz#6c947da10ff4ce930b87bc61b251a507ec817c41"
-  integrity sha512-+RBJA/beHLg0hO4rJZIhgUdxmZE7AaNfc11PCSzZdnzkmwSJv8Qg0HZbr7BQPQjkC6z4xVWq2h1itOPk1FQBrA==
+  version "4.10.3"
+  resolved "https://registry.yarnpkg.com/swagger-ui-dist/-/swagger-ui-dist-4.10.3.tgz#d67066716ce20cb6afb23474c9ca2727633a9eb3"
+  integrity sha512-eR4vsd7sYo0Sx7ZKRP5Z04yij7JkNmIlUQfrDQgC+xO5ABYx+waabzN+nDsQTLAJ4Z04bjkRd8xqkJtbxr3G7w==
 
 swagger-ui-express@^4.2.0:
   version "4.3.0"

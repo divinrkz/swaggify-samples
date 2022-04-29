@@ -1,13 +1,11 @@
 {
   "name": "swaggify-samples",
   "displayName": "swaggify-samples",
-  "version": "0.0.4",
-  "description": "A zero-config Node.js Swagger Documentation Sample",
-  "main": "build/compiled/index.js",
-  "types": "build/compiled/index.d.ts",
+  "version": "0.0.1",
+  "description": "A practical example for swaggify",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "dev": "ts-node ./src/app.ts",
+    "dev": "ts-node ./src/server.ts",
     "compile": "tsc",
     "lint": "npx eslint . --ext .ts --fix",
     "format": "prettier --write \"src/**/*.ts\"",
@@ -18,10 +16,10 @@
     "ts",
     "js",
     "swagger",
-    "swaggify-samples",
-    "swaggify-example",
     "docs",
-    "nest"
+    "nest",
+    "swaggify",
+    "openapi"
   ],
   "repository": {
     "type": "git",
@@ -40,7 +38,6 @@
   "author": "Divin Irakiza",
   "license": "MIT",
   "devDependencies": {
-    "@types/express": "^4.17.13",
     "@types/node": "^16.11.10",
     "@typescript-eslint/eslint-plugin": "^5.5.0",
     "@typescript-eslint/parser": "^5.5.0",
@@ -50,7 +47,11 @@
     "typescript": "^4.5.2"
   },
   "dependencies": {
+<<<<<<< HEAD
     "@divinirakiza/swaggify": "^0.0.6",
+=======
+    "@divinirakiza/swaggify": "^0.0.7",
+>>>>>>> f6b9c215ed9963cffe3fe095fa75f01807547d53
     "express": "^4.17.3"
   },
   "husky": {

@@ -1,13 +1,16 @@
 import express from "express";
+import {Swaggify} from "@divinirakiza/swaggify";
 
 const app = express();
-const port: number = 4008;
+const port = 4008;
 
 
 app.get( "/", ( req, res ) => {
     // render the index template
-    return res.send('App opening');
+    return res.send("App opening");
 } );
+
+
 
 // start the express server
 app.listen( port, () => {

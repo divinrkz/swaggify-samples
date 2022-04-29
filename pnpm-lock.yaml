@@ -1,7 +1,7 @@
 lockfileVersion: 5.3
 
 specifiers:
-  '@divinirakiza/swaggify': ^0.0.4
+  '@divinirakiza/swaggify': ^0.0.6
   '@types/express': ^4.17.13
   '@types/node': ^16.11.10
   '@typescript-eslint/eslint-plugin': ^5.5.0
@@ -13,7 +13,7 @@ specifiers:
   typescript: ^4.5.2
 
 dependencies:
-  '@divinirakiza/swaggify': 0.0.4_express@4.17.3
+  '@divinirakiza/swaggify': 0.0.6_express@4.17.3
   express: 4.17.3
 
 devDependencies:
@@ -59,9 +59,10 @@ packages:
       z-schema: 4.2.4
     dev: false
 
-  /@divinirakiza/swaggify/0.0.4_express@4.17.3:
-    resolution: {integrity: sha512-5EmKPzzF4xsZVW/pkXQYoAhAlnRxrF95i2sJ5j3tG3x+92e0wuDNllcfTTVO+Re60/Ttm1gMb/n2dobuXaYbgw==}
+  /@divinirakiza/swaggify/0.0.6_express@4.17.3:
+    resolution: {integrity: sha512-xaKqWiEn1XEqsWBx2emECIyP18XxD/ufdNRJwTX2K91bXB7c8/JmAgEChzKgs5s4H2dnxSKOFMcgkR/olhiNDA==}
     engines: {node: '>=8'}
+    hasBin: true
     peerDependencies:
       chalk: 4.0.0
     peerDependenciesMeta:

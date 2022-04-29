@@ -34,10 +34,10 @@
     call-me-maybe "^1.0.1"
     z-schema "^4.2.3"
 
-"@divinirakiza/swaggify@^0.0.8":
-  version "0.0.8"
-  resolved "https://registry.yarnpkg.com/@divinirakiza/swaggify/-/swaggify-0.0.8.tgz#4655e41dad0a0b4d9ebae2a582e4f0bd78b38f1b"
-  integrity sha512-n0HrI9Z5/m0eBJdzAOhnOCeLMAMWjABZtOLbBmvsul2z2fG89T/17snk6VVlSypJ4WHOdc8DQfIwIIkowIxjzA==
+"@divinirakiza/swaggify@^0.0.9":
+  version "0.0.9"
+  resolved "https://registry.yarnpkg.com/@divinirakiza/swaggify/-/swaggify-0.0.9.tgz#851f4a07457a8c022d47dc6538a8661daa6a6bde"
+  integrity sha512-az3UY4HP2tjayBQ21jv5SNbIovpNJivJHUBf8XJN2+70n9ZRi25NDsilh3nB6WTdt9o5wwQgAG9NaWmgiDSOEQ==
   dependencies:
     reflect-metadata "^0.1.13"
     swagger-jsdoc "^6.1.0"

@@ -34,10 +34,10 @@
     call-me-maybe "^1.0.1"
     z-schema "^4.2.3"
 
-"@divinirakiza/swaggify@0.0.11":
-  version "0.0.11"
-  resolved "https://registry.yarnpkg.com/@divinirakiza/swaggify/-/swaggify-0.0.11.tgz#9c7eb199ec41b3c5c00932b6ef9b5532f603ae5f"
-  integrity sha512-N7zwSRLliWSqbZI+AhVCQ7zzes/JYdpY/7KbFqBi/oP9UpD8gKneV60IGCaRoeCbAvRW1rXqdnl5xC6YLwYUnQ==
+"@divinirakiza/swaggify@0.0.12":
+  version "0.0.12"
+  resolved "https://registry.yarnpkg.com/@divinirakiza/swaggify/-/swaggify-0.0.12.tgz#eb5e93bd33cc95553063212e1dcf9d33821a6c1a"
+  integrity sha512-u9HHMdbp9HSrXQ53nEyqi5qUvaxMgbJJRLmwSULkHAyzFBqswH3CYy69/vc1zbyEkcAf4BVoKcK/GGBJtTz2DQ==
   dependencies:
     express "^4.18.1"
     reflect-metadata "^0.1.13"

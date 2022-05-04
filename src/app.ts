@@ -1,19 +1,16 @@
-import express from "express";
-import {Swaggify} from "@divinirakiza/swaggify";
+import express from 'express';
+import { Swaggify } from '@divinirakiza/swaggify';
 
 const app = express();
 const port = 4008;
 
-
-app.get( "/", ( req, res ) => {
+app.get('/', (req, res) => {
     // render the index template
-    return res.send("App opening");
-} );
-
-
+    return res.send('App opening');
+});
 
 // start the express server
-app.listen( port, () => {
+app.listen(port, () => {
     // tslint:disable-next-line:no-console
-    console.log(`server started at http://localhost:${ port }` );
-} );
+    console.log(`server started at http://localhost:${port}`);
+});

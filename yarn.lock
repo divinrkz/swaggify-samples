@@ -1415,10 +1415,10 @@ swagger-ui-express@^4.2.0:
   dependencies:
     swagger-ui-dist ">=4.11.0"
 
-swaggiffy@^0.1.1:
-  version "0.1.1"
-  resolved "https://registry.yarnpkg.com/swaggiffy/-/swaggiffy-0.1.1.tgz#078589da96ed3b3b625df3e473df32d894c50cd9"
-  integrity sha512-3Kc7qVp6ttmNABxBuXAHtjr4aDP89APZyGXvjbLMk5lNUPz1dqUWxXpfjB6rKcTHjbgdnUKD6mfUzIL2k+8gmQ==
+swaggiffy@^0.1.2:
+  version "0.1.2"
+  resolved "https://registry.yarnpkg.com/swaggiffy/-/swaggiffy-0.1.2.tgz#43dbd1825c9003a691082086baef38842483c10b"
+  integrity sha512-BH+RxSi2dUifvYYt4s1hODfzQHkAaPIgPnHbX6YlkeXiSqE1Ud/IMuZPwyhxrzb6OX/9FBrs7geX/U65OgWt6g==
   dependencies:
     express "^4.18.1"
     reflect-metadata "^0.1.13"

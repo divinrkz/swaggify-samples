@@ -22,26 +22,63 @@
       "https"
     ],
     "paths": {
-      "/users": {
+      "/all": {
         "get": {
-          "summary": "Returns a list of users.",
-          "description": "Optional extended description in Markdown.",
-          "produces": [
+          "tags": [
+            "Authors"
+          ],
+          "operationId": "getfunction getRandomArbitrary(min = 0, max = 100) {\n    return Math.random() * (max - min) + min;\n}",
+          "summary": "",
+          "description": "",
+          "consumes": [
             "application/json"
           ],
-          "responses": {
-            "200": {
-              "description": "OK"
-            }
-          }
+          "produces": [
+            "application/json"
+          ]
+        }
+      },
+      "/:id": {
+        "delete": {
+          "tags": [
+            "Authors"
+          ],
+          "operationId": "deletefunction getRandomArbitrary(min = 0, max = 100) {\n    return Math.random() * (max - min) + min;\n}",
+          "summary": "",
+          "description": "",
+          "consumes": [
+            "application/json"
+          ],
+          "produces": [
+            "application/json"
+          ]
+        }
+      },
+      "/": {
+        "post": {
+          "tags": [
+            "Authors"
+          ],
+          "operationId": "postfunction getRandomArbitrary(min = 0, max = 100) {\n    return Math.random() * (max - min) + min;\n}",
+          "summary": "",
+          "description": "",
+          "consumes": [
+            "application/json"
+          ],
+          "produces": [
+            "application/json"
+          ]
         }
       }
     },
     "definitions": {
-      "Test": {
+      "User": {
         "type": "object",
         "properties": {
           "firstName": {
+            "type": "string"
+          },
+          "lastName": {
             "type": "string"
           }
         }

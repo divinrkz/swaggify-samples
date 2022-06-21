@@ -1,5 +1,4 @@
 import express from 'express';
-import { Swaggify } from '@divinirakiza/swaggify';
 
 const app = express();
 const port = 4008;

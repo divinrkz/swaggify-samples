@@ -1,5 +1,6 @@
-import { Swaggify } from '@divinirakiza/swaggify';
-import { Schema } from '@divinirakiza/swaggify';
+import { Swaggify } from 'swaggiffy';
+import { Schema } from 'swaggiffy';
+
 const express = require('express');
 const app = express();
 
@@ -13,7 +14,7 @@ app.get('/', (req: any, res: any) => {
 
 new Swaggify().setupExpress(app).swaggify();
 
-    @Schema()
-    class Test {
-        firstName: string = 'DIvin';
-    }
+@Schema()
+class Test {
+    firstName: string = 'DIvin';
+}

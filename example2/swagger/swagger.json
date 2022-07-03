@@ -1,0 +1,89 @@
+{
+  "swaggerDefinition": {
+    "swagger": "2.0",
+    "info": {
+      "title": "swaggify-samples",
+      "description": "swaggify-samples API Documentation",
+      "termsOfService": "http://swagger.io/terms/",
+      "contact": {
+        "name": "API Support",
+        "url": "http://www.swagger.io/support",
+        "email": "support@swagger.io"
+      },
+      "license": {
+        "name": "Apache 2.0",
+        "url": "http://www.apache.org/licenses/LICENSE-2.0.html"
+      },
+      "version": "1.0.0"
+    },
+    "host": "api.example.com",
+    "basePath": "/v1",
+    "schemes": [
+      "https"
+    ],
+    "paths": {
+      "/all": {
+        "get": {
+          "tags": [
+            "Users"
+          ],
+          "operationId": "getfunction getRandomArbitrary(min = 0, max = 100) {\n    return Math.random() * (max - min) + min;\n}",
+          "summary": "",
+          "description": "",
+          "consumes": [
+            "application/json"
+          ],
+          "produces": [
+            "application/json"
+          ]
+        }
+      },
+      "/:id": {
+        "delete": {
+          "tags": [
+            "Users"
+          ],
+          "operationId": "deletefunction getRandomArbitrary(min = 0, max = 100) {\n    return Math.random() * (max - min) + min;\n}",
+          "summary": "",
+          "description": "",
+          "consumes": [
+            "application/json"
+          ],
+          "produces": [
+            "application/json"
+          ]
+        }
+      },
+      "/": {
+        "post": {
+          "tags": [
+            "Users"
+          ],
+          "operationId": "postfunction getRandomArbitrary(min = 0, max = 100) {\n    return Math.random() * (max - min) + min;\n}",
+          "summary": "",
+          "description": "",
+          "consumes": [
+            "application/json"
+          ],
+          "produces": [
+            "application/json"
+          ]
+        }
+      }
+    },
+    "definitions": {
+      "User": {
+        "type": "object",
+        "properties": {
+          "firstName": {
+            "type": "string"
+          },
+          "lastName": {
+            "type": "string"
+          }
+        }
+      }
+    }
+  },
+  "apis": []
+}

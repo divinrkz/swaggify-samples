@@ -23,7 +23,7 @@ router.delete('/:id', (req: any, res: any) => {
     res.send(null);
 });
 
-registerDefinitions([{ router, tags: 'Users' }]);
+registerDefinition({ router, tags: 'Users' });
 
 
 

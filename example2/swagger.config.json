@@ -1,0 +1,7 @@
+{
+   "projectName": "swaggify-samples",
+   "openApiVersion": "3.0",
+   "outFile": "./swagger/swagger.json",
+   "apiRoute": "/docs",
+   "format": "json"
+}
